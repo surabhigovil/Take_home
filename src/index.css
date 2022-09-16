@@ -1,0 +1,24 @@
+@import '../node_modules/mini.css/dist/mini-default.min.css';
+
+form {
+  min-width: 300px;
+}
+
+.photo {
+  height: 300px;
+  width: 500px;
+}
+
+html,
+body,
+#root,
+.container,
+.center-page {
+  height: 100%;
+}
+
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
