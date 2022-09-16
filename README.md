@@ -15,5 +15,5 @@ Taking data for this application from a mock schema.
 ## Edge Cases:
 
 1. When the mock data schema is empty UI is taking of care of not showing any data.
-2. Every image has an isActive flag which is not being used right now but it's value will be used to show statistics on the Pie Chart
-3. 
+2. Every image has an `isActive` flag which is not being used right now but it's value will be used to show statistics on the Pie Chart from only images which are to be considered part of dataset
+3. The size of dataset is not extensive as of now. When a larger nunber of values are present the images will be scrollable.
