@@ -12,7 +12,15 @@ export interface ProjectsPageProps {
 }
 
 function App() {
-  const [projects, setProjects] = useState<Project[]>(MOCK_PROJECTS);
+  //const [projects, setProjects] = useState<Project[]>(MOCK_PROJECTS);
+
+  const [projects, setProjects] = useState<Project[]>([]);
+
+  useEffect(() => {
+    projectAPI.get().then((projects) => {
+      setProjects(projects);
+    });
+  }, []);
 
   return (
     <div className="article-container">

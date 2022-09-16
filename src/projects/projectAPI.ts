@@ -51,7 +51,7 @@ function convertToProjectModel(item: any): Project {
 
 const projectAPI = {
    get() {
-    return fetch('http://localhost:4000/projects')
+    return fetch(`${url}`)
         .then(delay(600))
         .then(checkStatus)
         .then(parseJSON)
