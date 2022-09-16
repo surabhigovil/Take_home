@@ -2,14 +2,14 @@
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, run the following to install all the dependencies:
 
-### `npm init`: To install all the dependencies 
+### `npm init`: This step is essential to iniitalize the project with the required dependencies
 
 ## Run the application on localhost as a REST API:
 
-1. In a seperate tabe run `npm run api` to start the server
-2. `npm start` in a tab in the root to run the application on localhost
+1. In a seperate tab from the root of the directory run `npm run api` to start the server
+2.  In a seperate tab from the root of the directory run `npm start` will run the application on localhost
 
 ## Assumptions:
 Taking data for this application from a mock schema. 
