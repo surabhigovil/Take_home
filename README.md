@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm init`: To install all the dependencies 
 
-# To run the application on localhost with a fake REST Server:
+## Run the application on localhost as a REST API:
 
 1. In a seperate tabe run `npm run api` to start the server
 2. `npm start` in a tab in the root to run the application on localhost
