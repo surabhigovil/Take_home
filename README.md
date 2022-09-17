@@ -17,8 +17,8 @@ Taking data for this application from a mock schema.
 ## Implementing CRUD operation using a fake server
 1. Used JSON Server package in React to create a fake REST API for demo purpose
 2. `projectAPI` file contains GET and PUT request to manipulate data
-3. On click of `Edit` on homepage for each image card a form will show up. The form will present the user with option to mark image as Good or Bad.
-4. The statistics shows distribution of Good vs Bad Images as a Pie Chart
+3. On click of `Edit` on homepage for each image card a form will show up. The form will present the user with option to mark image as Good or Bad using the `isGoodImage` flag.
+4. The statistics shows distribution of Good vs Bad Images as a Pie Chart using the count of `isGoodImage` flag stored in the backend.
 
 ## Passing Data to Componenets
 1. Projects page and Statistics page are two main components in the application 
