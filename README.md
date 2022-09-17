@@ -29,13 +29,12 @@ Taking data for this application from a mock schema.
 ## Screenshots:
 <img width="1439" alt="Screen Shot 2022-09-17 at 11 04 07 AM" src="https://user-images.githubusercontent.com/10840984/190870749-62e113a9-f054-41f7-93b0-5f1fa254a899.png">
 
-<img width="1440" alt="Screen Shot 2022-09-17 at 11 06 59 AM" src="https://user-images.githubusercontent.com/10840984/190870784-1c671448-67b5-44fd-abfd-05d83ad267e5.png">
-
 
 <img width="1440" alt="Screen Shot 2022-09-17 at 11 06 36 AM" src="https://user-images.githubusercontent.com/10840984/190870795-71e9dd99-ba72-4a54-8134-83bd8dc73d27.png">
 
 <img width="1438" alt="Screen Shot 2022-09-17 at 11 05 30 AM" src="https://user-images.githubusercontent.com/10840984/190870808-35e29f3c-13e8-49e6-b701-205a7bebe385.png">
 
+<img width="1440" alt="Screen Shot 2022-09-17 at 11 06 59 AM" src="https://user-images.githubusercontent.com/10840984/190870784-1c671448-67b5-44fd-abfd-05d83ad267e5.png">
 
 ## Edge Cases:
 1. When the mock data schema is empty UI is taking of care of not showing any data.
